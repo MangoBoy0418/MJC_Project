@@ -34,7 +34,6 @@
             button3 = new Button();
             button4 = new Button();
             label1 = new Label();
-            button5 = new Button();
             tableLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -102,22 +101,12 @@
             label1.TabIndex = 1;
             label1.Text = "점심 메뉴를 고르시오";
             // 
-            // button5
-            // 
-            button5.Location = new Point(0, 0);
-            button5.Name = "button5";
-            button5.Size = new Size(75, 23);
-            button5.TabIndex = 2;
-            button5.Text = "button5";
-            button5.UseVisualStyleBackColor = true;
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoSize = true;
             ClientSize = new Size(534, 511);
-            Controls.Add(button5);
             Controls.Add(label1);
             Controls.Add(tableLayoutPanel1);
             Name = "Form1";
@@ -135,6 +124,5 @@
         private Button button2;
         private Button button3;
         private Button button4;
-        private Button button5;
     }
 }
