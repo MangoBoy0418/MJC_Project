@@ -29,11 +29,12 @@
         private void InitializeComponent()
         {
             tableLayoutPanel1 = new TableLayoutPanel();
-            label1 = new Label();
             button1 = new Button();
             button2 = new Button();
             button3 = new Button();
             button4 = new Button();
+            label1 = new Label();
+            button5 = new Button();
             tableLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -54,16 +55,6 @@
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
             tableLayoutPanel1.Size = new Size(534, 405);
             tableLayoutPanel1.TabIndex = 0;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("돋움", 27.75F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            label1.Location = new Point(78, 34);
-            label1.Name = "label1";
-            label1.Size = new Size(385, 37);
-            label1.TabIndex = 1;
-            label1.Text = "점심 메뉴를 고르시오";
             // 
             // button1
             // 
@@ -101,12 +92,32 @@
             button4.Text = "button4";
             button4.UseVisualStyleBackColor = true;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("돋움", 27.75F, FontStyle.Bold, GraphicsUnit.Point, 129);
+            label1.Location = new Point(78, 34);
+            label1.Name = "label1";
+            label1.Size = new Size(385, 37);
+            label1.TabIndex = 1;
+            label1.Text = "점심 메뉴를 고르시오";
+            // 
+            // button5
+            // 
+            button5.Location = new Point(0, 0);
+            button5.Name = "button5";
+            button5.Size = new Size(75, 23);
+            button5.TabIndex = 2;
+            button5.Text = "button5";
+            button5.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoSize = true;
             ClientSize = new Size(534, 511);
+            Controls.Add(button5);
             Controls.Add(label1);
             Controls.Add(tableLayoutPanel1);
             Name = "Form1";
@@ -124,5 +135,6 @@
         private Button button2;
         private Button button3;
         private Button button4;
+        private Button button5;
     }
 }
