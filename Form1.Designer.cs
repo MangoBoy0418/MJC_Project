@@ -47,46 +47,51 @@
             tableLayoutPanel1.Controls.Add(button3, 0, 1);
             tableLayoutPanel1.Controls.Add(button4, 1, 1);
             tableLayoutPanel1.Dock = DockStyle.Bottom;
-            tableLayoutPanel1.Location = new Point(0, 106);
+            tableLayoutPanel1.Location = new Point(0, 177);
+            tableLayoutPanel1.Margin = new Padding(4, 5, 4, 5);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 2;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.Size = new Size(534, 405);
+            tableLayoutPanel1.Size = new Size(763, 675);
             tableLayoutPanel1.TabIndex = 0;
             // 
             // button1
             // 
-            button1.Location = new Point(3, 3);
+            button1.Location = new Point(4, 5);
+            button1.Margin = new Padding(4, 5, 4, 5);
             button1.Name = "button1";
-            button1.Size = new Size(75, 23);
+            button1.Size = new Size(107, 38);
             button1.TabIndex = 0;
             button1.Text = "button1";
             button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            button2.Location = new Point(270, 3);
+            button2.Location = new Point(385, 5);
+            button2.Margin = new Padding(4, 5, 4, 5);
             button2.Name = "button2";
-            button2.Size = new Size(75, 23);
+            button2.Size = new Size(107, 38);
             button2.TabIndex = 1;
-            button2.Text = "button2";
+            button2.Text = "The End?";
             button2.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-            button3.Location = new Point(3, 205);
+            button3.Location = new Point(4, 342);
+            button3.Margin = new Padding(4, 5, 4, 5);
             button3.Name = "button3";
-            button3.Size = new Size(75, 23);
+            button3.Size = new Size(107, 38);
             button3.TabIndex = 2;
             button3.Text = "button3";
             button3.UseVisualStyleBackColor = true;
             // 
             // button4
             // 
-            button4.Location = new Point(270, 205);
+            button4.Location = new Point(385, 342);
+            button4.Margin = new Padding(4, 5, 4, 5);
             button4.Name = "button4";
-            button4.Size = new Size(75, 23);
+            button4.Size = new Size(107, 38);
             button4.TabIndex = 3;
             button4.Text = "button4";
             button4.UseVisualStyleBackColor = true;
@@ -95,20 +100,22 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("돋움", 27.75F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            label1.Location = new Point(78, 34);
+            label1.Location = new Point(111, 57);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(385, 37);
+            label1.Size = new Size(566, 56);
             label1.TabIndex = 1;
             label1.Text = "점심 메뉴를 고르시오";
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoSize = true;
-            ClientSize = new Size(534, 511);
+            ClientSize = new Size(763, 852);
             Controls.Add(label1);
             Controls.Add(tableLayoutPanel1);
+            Margin = new Padding(4, 5, 4, 5);
             Name = "Form1";
             Text = "Form1";
             tableLayoutPanel1.ResumeLayout(false);
