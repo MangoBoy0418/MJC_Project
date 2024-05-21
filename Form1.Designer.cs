@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             tableLayoutPanel1 = new TableLayoutPanel();
-            button1 = new Button();
+            button1_Hansik = new Button();
             button2 = new Button();
             button3 = new Button();
             button4 = new Button();
@@ -42,7 +42,7 @@
             tableLayoutPanel1.ColumnCount = 2;
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.Controls.Add(button1, 0, 0);
+            tableLayoutPanel1.Controls.Add(button1_Hansik, 0, 0);
             tableLayoutPanel1.Controls.Add(button2, 1, 0);
             tableLayoutPanel1.Controls.Add(button3, 0, 1);
             tableLayoutPanel1.Controls.Add(button4, 1, 1);
@@ -56,15 +56,15 @@
             tableLayoutPanel1.Size = new Size(763, 675);
             tableLayoutPanel1.TabIndex = 0;
             // 
-            // button1
+            // button1_Hansik
             // 
-            button1.Location = new Point(4, 5);
-            button1.Margin = new Padding(4, 5, 4, 5);
-            button1.Name = "button1";
-            button1.Size = new Size(107, 38);
-            button1.TabIndex = 0;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            button1_Hansik.Image = Properties.Resources.hansik__1_1;
+            button1_Hansik.Location = new Point(4, 5);
+            button1_Hansik.Margin = new Padding(4, 5, 4, 5);
+            button1_Hansik.Name = "button1_Hansik";
+            button1_Hansik.Size = new Size(373, 327);
+            button1_Hansik.TabIndex = 0;
+            button1_Hansik.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
@@ -127,7 +127,7 @@
 
         private TableLayoutPanel tableLayoutPanel1;
         private Label label1;
-        private Button button1;
+        private Button button1_Hansik;
         private Button button2;
         private Button button3;
         private Button button4;
